@@ -2,7 +2,7 @@
 title: Text Opacity
 ---
 
-AD UI 引入了以下功能类，以控制元素内文字的不透明度。
+Hunt UI 引入了以下功能类，以控制元素内文字的不透明度。
 
 相关 CSS 属性：`--tw-text-opacity`
 
@@ -36,7 +36,7 @@ return (
           className="flex-1 min-w-0 truncate"
           style={{ lineHeight: "initial", opacity: o / 100 }}
         >
-          AD UI 的组件由有状态组件（Class Component），函数式组件（Functional
+          Hunt UI 的组件由有状态组件（Class Component），函数式组件（Functional
           Component）组成。
         </span>
       </div>

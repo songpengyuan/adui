@@ -2,7 +2,7 @@
 title: Background Color
 ---
 
-AD UI 引入了以下功能类，以控制元素的背景颜色。颜色色值派生自色彩规范。
+Hunt UI 引入了以下功能类，以控制元素的背景颜色。颜色色值派生自色彩规范。
 
 相关 CSS 属性：`background-color`
 

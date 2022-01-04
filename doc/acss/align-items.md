@@ -2,7 +2,7 @@
 title: Align Items
 ---
 
-AD UI 引入了以下功能类，以控制 `flex` 和 `grid` 在交叉轴方向上的默认对齐方式。
+Hunt UI 引入了以下功能类，以控制 `flex` 和 `grid` 在交叉轴方向上的默认对齐方式。
 
 相关 CSS 属性：`align-items`
 

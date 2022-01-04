@@ -2,7 +2,7 @@
 
 尺寸是营造秩序环境的重要因素。因中后台系统更注重效率、功能、稳定，界面需要 **合理排布，更紧凑、更高利用率的空间**。
 
-AD UI 的大部分组件支持四种尺寸 `size` 选择：大、中、小、迷你。为达到更高效的空间利用率、有秩序的环境，AD UI 默认使用 **小尺寸**，以保证在不同场景下，用户仍然能高效地掌握页面结构、内容，不至于迷失。同时，小尺寸也能以更低成本保证界面在多种尺寸屏幕中的表现。
+Hunt UI 的大部分组件支持四种尺寸 `size` 选择：大、中、小、迷你。为达到更高效的空间利用率、有秩序的环境，Hunt UI 默认使用 **小尺寸**，以保证在不同场景下，用户仍然能高效地掌握页面结构、内容，不至于迷失。同时，小尺寸也能以更低成本保证界面在多种尺寸屏幕中的表现。
 
 ---
 
@@ -14,7 +14,7 @@ AD UI 的大部分组件支持四种尺寸 `size` 选择：大、中、小、迷
         运用小尺寸，更秩序、高效的空间布局
     </h3>
     <p class="articleP">
-    AD UI 默认使用小尺寸的文字与组件，以达到更紧凑、更高空间利用率的表现。在中后台系统的环境下，有以下几点优势：
+    Hunt UI 默认使用小尺寸的文字与组件，以达到更紧凑、更高空间利用率的表现。在中后台系统的环境下，有以下几点优势：
     </p>
     <ol>
     <li><strong>轻松掌握界面：</strong>引导用户快速掌握界面、功能区的划分方式。</li>
@@ -23,7 +23,7 @@ AD UI 的大部分组件支持四种尺寸 `size` 选择：大、中、小、迷
     </ol>
   </section>
   <div display="block" style="flex: 1;">
-  <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/6f26hydx_8449aff7.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" />
+  <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/6f26hydx_8449aff7.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" /> -->
   </div>
 </article>
 
@@ -43,6 +43,6 @@ AD UI 的大部分组件支持四种尺寸 `size` 选择：大、中、小、迷
     </ol>
   </section>
   <div display="block" style="flex: 1;">
-  <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/zp2jzge5_a6bc47c9.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" />
+  <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/zp2jzge5_a6bc47c9.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" /> -->
   </div>
 </article>

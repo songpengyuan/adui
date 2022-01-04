@@ -2,7 +2,7 @@
 title: Text Decoration
 ---
 
-AD UI 引入了以下功能类，以控制元素内文字的修饰线外观。
+Hunt UI 引入了以下功能类，以控制元素内文字的修饰线外观。
 
 相关 CSS 属性：`text-decoration`
 
@@ -24,7 +24,7 @@ return (
           className="flex-1 min-w-0 truncate"
           style={{ lineHeight: "initial", textDecoration: o }}
         >
-          AD UI 的组件由有状态组件（Class Component），函数式组件（Functional
+          Hunt UI 的组件由有状态组件（Class Component），函数式组件（Functional
           Component）组成。
         </span>
       </div>

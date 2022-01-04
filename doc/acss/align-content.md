@@ -2,7 +2,7 @@
 title: Align Content
 ---
 
-AD UI 引入了以下功能类，以控制 `flex` 和 `grid` 主轴在内容项之间和周围如何分配空间。
+Hunt UI 引入了以下功能类，以控制 `flex` 和 `grid` 主轴在内容项之间和周围如何分配空间。
 
 相关 CSS 属性：`align-content`
 

@@ -2,7 +2,7 @@
 title: Transition Duration
 ---
 
-AD UI 引入了以下功能类，以控制元素属性的过渡时间。
+Hunt UI 引入了以下功能类，以控制元素属性的过渡时间。
 
 相关 CSS 属性：`transition-duration`
 

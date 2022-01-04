@@ -1,6 +1,6 @@
 # 布局 &nbsp; Layout
 
-规范化、标准化的布局，能搭建秩序的环境，让用户进入不同空间（页面）时，能看见熟悉的框架，帮助理解浏览和操作的结构。AD UI 制定了几种标准的布局规范，同时包含整体和局部模块的功能区划分。
+规范化、标准化的布局，能搭建秩序的环境，让用户进入不同空间（页面）时，能看见熟悉的框架，帮助理解浏览和操作的结构。Hunt UI 制定了几种标准的布局规范，同时包含整体和局部模块的功能区划分。
 
 ---
 
@@ -25,7 +25,7 @@
     </p>
   </section>
     <div style="flex: 1;">
-  <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/5elio54w_4a47a0db.png" style="margin: 0; width: 430px; background-color: #fcfcfc;" />
+  <!-- <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/5elio54w_4a47a0db.png" style="margin: 0; width: 430px; background-color: #fcfcfc;" /> -->
   </div>
 </article>
 
@@ -41,6 +41,6 @@
     </p>
   </section>
     <div style="flex: 1;">
-  <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/zhkc8nh4_fb5c81ed.png" style="margin: 0; width: 430px; background-color: #fcfcfc;" />
+  <!-- <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/zhkc8nh4_fb5c81ed.png" style="margin: 0; width: 430px; background-color: #fcfcfc;" /> -->
   </div>
 </article>

@@ -2,7 +2,7 @@
 title: Place Content
 ---
 
-AD UI 引入了以下功能类，以同时控制 `flex` 和 `grid` 内内容主轴和交叉轴的对齐方式。
+Hunt UI 引入了以下功能类，以同时控制 `flex` 和 `grid` 内内容主轴和交叉轴的对齐方式。
 
 相关 CSS 属性：`place-content`
 

@@ -2,7 +2,7 @@
 title: Word Break
 ---
 
-AD UI 引入了以下功能类，以指定怎样在单词内断行。
+Hunt UI 引入了以下功能类，以指定怎样在单词内断行。
 
 相关 CSS 属性：`word-break` `overflow-wrap`
 

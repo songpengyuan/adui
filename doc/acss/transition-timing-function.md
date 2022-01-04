@@ -2,9 +2,9 @@
 title: Transition Timing Function
 ---
 
-AD UI 引入了以下功能类，以控制元素属性的过渡曲线。
+Hunt UI 引入了以下功能类，以控制元素属性的过渡曲线。
 
-AD UI 为 `in` `out` `in-out` 定义了三种曲线，此外也有 `linear` 和品牌曲线 `brand`。
+Hunt UI 为 `in` `out` `in-out` 定义了三种曲线，此外也有 `linear` 和品牌曲线 `brand`。
 
 相关 CSS 属性：`transition-timing-function`
 

@@ -1,6 +1,6 @@
 # 字体&nbsp; Typeface
 
-字体是传达信息的文字语言，同时包含数据。AD UI 规范了字体的尺寸规则，以及 Web 字体回退方案，并建议以最简单、有效的字体样式对比，表现合理的信息层级。
+字体是传达信息的文字语言，同时包含数据。Hunt UI 规范了字体的尺寸规则，以及 Web 字体回退方案，并建议以最简单、有效的字体样式对比，表现合理的信息层级。
 
 <section class="headerSection">
     <div class="headerBox">
@@ -115,15 +115,15 @@
         通过优化字号、字色、字重，信息组之间呈现了合理对比、层级关系，设计语言优化了阅读体验，让用户能快速捕捉、理解信息结构，降低了理解成本，达到简易、秩序的效果。
         </p>
         <p class="articleP">
-        对比的方式有很多种，请根据具体情景调整。在 AD UI 中，类似的对比运用在了合适的组件中，如对话框、气泡提示、卡片等。
+        对比的方式有很多种，请根据具体情景调整。在 Hunt UI 中，类似的对比运用在了合适的组件中，如对话框、气泡提示、卡片等。
         </p>
         <p class="articleP">
         <a href="/components/card">查看组件示例</a>
         </p>
     </section>
     <div display="block" style="flex: 1;">
-      <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/o62vka90_d0e3ee45.png" style="margin: 0 0 56px 0; width: 430px; background-color: #fcfcfc;" />
-      <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/x0tjgnwv_792ffb66.png" style="margin: 0 0 56px 0; width: 430px; background-color: #fcfcfc;" />
-      <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/u99cl3xe_44e9dfa5.png" style="margin: 0 0 56px 0; width: 430px; background-color: #fcfcfc;" />
+      <!-- <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/o62vka90_d0e3ee45.png" style="margin: 0 0 56px 0; width: 430px; background-color: #fcfcfc;" /> -->
+      <!-- <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/x0tjgnwv_792ffb66.png" style="margin: 0 0 56px 0; width: 430px; background-color: #fcfcfc;" /> -->
+      <!-- <img src="https://wximg.qq.com/wxp/wxadtouch/upload/t1/u99cl3xe_44e9dfa5.png" style="margin: 0 0 56px 0; width: 430px; background-color: #fcfcfc;" /> -->
   </div>
 </article>

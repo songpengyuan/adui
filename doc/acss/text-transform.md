@@ -2,7 +2,7 @@
 title: Text Transform
 ---
 
-AD UI 引入了以下功能类，以控制元素内文字的大小写显示。
+Hunt UI 引入了以下功能类，以控制元素内文字的大小写显示。
 
 相关 CSS 属性：`text-transform`
 
@@ -25,7 +25,7 @@ return (
           className="flex-1 min-w-0 truncate"
           style={{ lineHeight: "initial", textTransform: o }}
         >
-          AD UI is a UI full of ads.
+          Hunt UI is a UI full of ads.
         </span>
       </div>
     ))}

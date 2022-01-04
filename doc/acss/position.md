@@ -2,7 +2,7 @@
 title: Position
 ---
 
-AD UI 引入了以下功能类，以控制元素的定位方式。
+Hunt UI 引入了以下功能类，以控制元素的定位方式。
 
 相关 CSS 属性：`position`
 

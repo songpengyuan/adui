@@ -2,7 +2,7 @@
 title: Transition Delay
 ---
 
-AD UI 引入了以下功能类，以控制元素属性的过渡延时。
+Hunt UI 引入了以下功能类，以控制元素属性的过渡延时。
 
 相关 CSS 属性：`transition-delay`
 

@@ -2,7 +2,7 @@
 title: Border Radius
 ---
 
-AD UI 引入了以下功能类，以控制元素的外边框圆角。支持多方位： `rounded-2` `rounded-t-2` `rounded-b-2` `rounded-tl-2` `rounded-tr-2` `rounded-bl-2` `rounded-br-2`
+Hunt UI 引入了以下功能类，以控制元素的外边框圆角。支持多方位： `rounded-2` `rounded-t-2` `rounded-b-2` `rounded-tl-2` `rounded-tr-2` `rounded-bl-2` `rounded-br-2`
 
 相关 CSS 属性：`border-radius` `border-top-left-radius` `border-top-right-radius` `border-bottom-left-radius` `border-bottom-right-radius`
 

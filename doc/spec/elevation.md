@@ -74,7 +74,7 @@
     </p>
   </section>
   <div display="block" style="flex: 1;">
-  <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/mvdsbj2e_4c30105f.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" />
+  <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/mvdsbj2e_4c30105f.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" /> -->
   </div>
 </article>
 
@@ -162,6 +162,6 @@
     </p>
   </section>
   <div display="block" style="flex: 1;">
-  <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/6iscdme0_4a55227c.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" />
+  <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/6iscdme0_4a55227c.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" /> -->
   </div>
 </article>

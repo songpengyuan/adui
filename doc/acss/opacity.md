@@ -2,7 +2,7 @@
 title: Opacity
 ---
 
-AD UI 引入了以下功能类，以控制元素的透明度。
+Hunt UI 引入了以下功能类，以控制元素的透明度。
 
 相关 CSS 属性：`opacity`
 

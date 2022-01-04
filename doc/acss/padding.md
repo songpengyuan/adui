@@ -2,7 +2,7 @@
 title: Padding
 ---
 
-AD UI 引入了以下功能类，以控制容器内边距。注意：支持 0 ~ 500 被 4 整除的数字，例：支持 `p-64`，不支持 `p-63`。
+Hunt UI 引入了以下功能类，以控制容器内边距。注意：支持 0 ~ 500 被 4 整除的数字，例：支持 `p-64`，不支持 `p-63`。
 
 相关 CSS 属性：`padding` `padding-top` `padding-right` `padding-bottom` `padding-left`
 

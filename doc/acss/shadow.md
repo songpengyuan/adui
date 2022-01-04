@@ -2,7 +2,7 @@
 title: Shadow
 ---
 
-AD UI 引入了以下功能类，以控制元素框架上的阴影效果。颜色色值除了派生自色彩规范的部分以外，还提供 `shadow-0` `shadow-1` `shadow-2` `shadow-3` `shadow-4` 五个层级。
+Hunt UI 引入了以下功能类，以控制元素框架上的阴影效果。颜色色值除了派生自色彩规范的部分以外，还提供 `shadow-0` `shadow-1` `shadow-2` `shadow-3` `shadow-4` 五个层级。
 
 在种类上，提供了 `1px` `2px` `1px inset` `2px inset` 四种类型。  
 对应类名为：`shadow-tp-gray-200` `shadow-2-tp-gray-200` `shadow-inset-tp-gray-200` `shadow-2-inset-tp-gray-200`

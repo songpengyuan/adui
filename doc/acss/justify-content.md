@@ -2,7 +2,7 @@
 title: Justify Content
 ---
 
-AD UI 引入了以下功能类，以控制 `flex` 和 `grid` 容器内的元素是如何在主轴方向布局的。
+Hunt UI 引入了以下功能类，以控制 `flex` 和 `grid` 容器内的元素是如何在主轴方向布局的。
 
 相关 CSS 属性：`justify-content`
 

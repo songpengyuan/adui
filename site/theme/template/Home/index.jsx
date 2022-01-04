@@ -79,9 +79,12 @@ class Home extends React.Component {
         <div className={styles.home}>
           <div className={styles.wrapper}>
             <div className={styles.left}>
-              <LogoSvg className={styles.logo} />
+              {/* <LogoSvg className={styles.logo} /> */}
+             <div className={styles.logo}>Hunt UI</div>
+              <br />
+              by AllValue team Design
               <p>
-                为 B 端中后台系统界面设计，以简易的基础工具，
+                为 C 端客户界面设计，以简易的基础工具，
                 <br />
                 搭建有秩序的、一致的体验环境。
               </p>
@@ -169,7 +172,7 @@ class Home extends React.Component {
                         ))}
                       </div>
                       <div className={styles.pagination}>
-                        AD UI for Web
+                        Hunt UI for Web
                         <div>
                           <Button leftIcon="arrow-left" />
                           <Button
@@ -182,7 +185,7 @@ class Home extends React.Component {
                                 () => {
                                   if (this.state.count % 10 === 0) {
                                     Message.success({
-                                      content: "Please use AD UI.😊",
+                                      content: "Please use Hunt UI.😊",
                                       icon: "game",
                                     })
                                   }
@@ -257,7 +260,7 @@ class Home extends React.Component {
                           </div>
                           <div className={styles["menu-card-desc"]}>
                             adui 安装及使用方法。包含按钮、输入框、单选、勾选等
-                            AD UI 组件的各类可配置 Props 及使用方法。
+                            Hunt UI 组件的各类可配置 Props 及使用方法。
                           </div>
                         </div>
                       </Card>
@@ -310,7 +313,7 @@ class Home extends React.Component {
                             设计资源
                           </div>
                           <div className={styles["menu-card-desc"]}>
-                            设计资源与设计工具下载，目前包含 AD UI Sketch
+                            设计资源与设计工具下载，目前包含 Hunt UI Sketch
                             组件源文件。将持续更新完善。
                           </div>
                         </div>
@@ -323,13 +326,13 @@ class Home extends React.Component {
             <div className={styles.footer}>
               <footer className={styles.wrapper}>
                 <p>
-                  AD UI
-                  针对网页端后台界面而设计，方便设计师与开发搭建整体的后台体验环境。
+                  Hunt UI
+                  针对网页端客户界面而设计，方便设计师与开发搭建整体的后台体验环境。
                   <br />
-                  AD UI 建议以简单、合理的方案解决后台系统中的实际使用问题。
+                  Hunt UI 建议以简单、合理的方案解决客户端中的实际使用问题。
                 </p>
                 <div className={styles["footer-contact"]}>
-                  yijiejiang@tencent.com
+                  songpengyuan@youzan.com
                 </div>
               </footer>
             </div>

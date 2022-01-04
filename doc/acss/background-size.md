@@ -2,7 +2,7 @@
 title: Background Size
 ---
 
-AD UI 引入了以下功能类，以控制背景图片的尺寸。
+Hunt UI 引入了以下功能类，以控制背景图片的尺寸。
 
 相关 CSS 属性：`background-size`
 

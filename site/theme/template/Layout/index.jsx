@@ -262,7 +262,7 @@ class SiteLayout extends React.Component {
                   />
                 </div>
               )}
-              <Link to="/">
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <div
                   style={{
                     display: "flex",
@@ -950,7 +950,7 @@ class SiteLayout extends React.Component {
                 </Layout.Main>
                 <div className={styles.footer}>
                   <div className={styles.footerInner}>
-                    <svg width={180} height={40}>
+                    {/* <svg width={180} height={40}>
                       <image
                         width={180}
                         height={40}
@@ -958,19 +958,19 @@ class SiteLayout extends React.Component {
                         fill="none"
                         fillRule="evenodd"
                       />
-                    </svg>
+                    </svg> */}
                     <div className={styles.description}>
                       <p>
-                        AD UI
-                        针对网页端后台界面而设计，方便设计师与开发搭建整体的后台体验环境。
+                        Hunt UI
+                        针对网页端客户界面而设计，方便设计师与开发搭建整体的后台体验环境。
                       </p>
                       <p>
-                        AD UI
-                        建议以简单、合理的方案解决后台系统中的实际使用问题。
+                        Hunt UI 
+                        建议以简单、合理的方案解决客户端中的实际使用问题。
                       </p>
                     </div>
                     <p className={styles.connection}>
-                      如有任何优化建议，请联系我们：yijiejiang@tencent.com
+                      如有任何优化建议，请联系我们：songpengyuan@youzan.com
                     </p>
                   </div>
                 </div>

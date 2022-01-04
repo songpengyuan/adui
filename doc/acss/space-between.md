@@ -2,7 +2,7 @@
 title: Space Between
 ---
 
-AD UI 引入了以下功能类，以统一控制容器内元素之间的间距。注意：支持 -500 ~ 500 被 4 整除的数字，例：支持 `space-x-64`，不支持 `-space-y-63`。
+Hunt UI 引入了以下功能类，以统一控制容器内元素之间的间距。注意：支持 -500 ~ 500 被 4 整除的数字，例：支持 `space-x-64`，不支持 `-space-y-63`。
 
 相关 CSS 属性：`margin` `margin-top` `margin-right` `margin-bottom` `margin-left`
 

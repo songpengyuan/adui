@@ -2,7 +2,7 @@
 title: Grid Template Columns
 ---
 
-AD UI 引入了以下功能类，以控制 `grid` 容器的列布局。
+Hunt UI 引入了以下功能类，以控制 `grid` 容器的列布局。
 
 相关 CSS 属性：`grid-template-columns`
 

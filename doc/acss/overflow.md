@@ -2,7 +2,7 @@
 title: Overflow
 ---
 
-AD UI 引入了以下功能类，以控制元素内容超过其容器时的表现。
+Hunt UI 引入了以下功能类，以控制元素内容超过其容器时的表现。
 
 相关 CSS 属性：`overflow` `::-webkit-scrollbar`
 

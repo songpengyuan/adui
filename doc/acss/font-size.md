@@ -2,7 +2,7 @@
 title: Font Size
 ---
 
-AD UI 引入了以下功能类，以控制元素内的文字字号。
+Hunt UI 引入了以下功能类，以控制元素内的文字字号。
 
 相关 CSS 属性：`font-size`
 
@@ -37,7 +37,7 @@ return (
           className="flex-1 min-w-0 text-tp-gray-800 truncate"
           style={{ fontSize: `${o}px`, lineHeight: "initial" }}
         >
-          AD UI 的组件由有状态组件（Class Component），函数式组件（Functional
+          Hunt UI 的组件由有状态组件（Class Component），函数式组件（Functional
           Component）组成。
         </span>
       </div>

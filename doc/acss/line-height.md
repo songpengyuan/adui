@@ -2,7 +2,7 @@
 title: Line Height
 ---
 
-AD UI 引入了以下功能类，以控制元素内的文字行高。
+Hunt UI 引入了以下功能类，以控制元素内的文字行高。
 
 相关 CSS 属性：`line-height`
 
@@ -38,7 +38,7 @@ return (
           className="flex-1 min-w-0 text-tp-gray-800 truncate"
           style={{ lineHeight: `${o}px` }}
         >
-          AD UI 的组件由有状态组件（Class Component），函数式组件（Functional
+          Hunt UI 的组件由有状态组件（Class Component），函数式组件（Functional
           Component）组成。
         </span>
       </div>

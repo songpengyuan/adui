@@ -2,7 +2,7 @@
 title: Justify Self
 ---
 
-AD UI 引入了以下功能类，以控制 `grid` 容器内单个元素在适当轴中的对齐方式。
+Hunt UI 引入了以下功能类，以控制 `grid` 容器内单个元素在适当轴中的对齐方式。
 
 相关 CSS 属性：`justify-self`
 

@@ -2,7 +2,7 @@
 title: Background Repeat
 ---
 
-AD UI 引入了以下功能类，以控制背景图片的重复方式。
+Hunt UI 引入了以下功能类，以控制背景图片的重复方式。
 
 相关 CSS 属性：`background-repeat`
 

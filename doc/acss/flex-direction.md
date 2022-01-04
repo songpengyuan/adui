@@ -2,7 +2,7 @@
 title: Flex Direction
 ---
 
-AD UI 引入了以下功能类，以控制 `flex` 容器内的元素是如何布局的，定义了主轴的方向。
+Hunt UI 引入了以下功能类，以控制 `flex` 容器内的元素是如何布局的，定义了主轴的方向。
 
 相关 CSS 属性：`flex-direction`
 

@@ -2,7 +2,7 @@
 title: Margin
 ---
 
-AD UI 引入了以下功能类，以控制容器外边距。注意：支持 -500 ~ 500 被 4 整除的数字，例：支持 `m-64`，不支持 `-m-63`。
+Hunt UI 引入了以下功能类，以控制容器外边距。注意：支持 -500 ~ 500 被 4 整除的数字，例：支持 `m-64`，不支持 `-m-63`。
 
 相关 CSS 属性：`margin` `margin-top` `margin-right` `margin-bottom` `margin-left`
 

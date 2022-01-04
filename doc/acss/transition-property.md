@@ -2,7 +2,7 @@
 title: Transition Property
 ---
 
-AD UI 引入了以下功能类，以控制元素的哪些属性需要过渡。
+Hunt UI 引入了以下功能类，以控制元素的哪些属性需要过渡。
 
 相关 CSS 属性：`transition-property`
 

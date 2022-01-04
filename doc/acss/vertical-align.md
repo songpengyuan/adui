@@ -2,7 +2,7 @@
 title: Vertical Align
 ---
 
-AD UI 引入了以下功能类，以控制 `inline` 或 `table-cell` 元素的垂直对齐方式。
+Hunt UI 引入了以下功能类，以控制 `inline` 或 `table-cell` 元素的垂直对齐方式。
 
 相关 CSS 属性：`vertical-align`
 

@@ -1,6 +1,6 @@
 # 色彩&nbsp; Color
 
-在中后台系统中，色彩服务于功能。AD UI 主要以无色系（黑白灰）搭建整体的后台环境，让用户更关注信息和内容本身。色相仅用于表示功能、语义和倾向，如成功、提醒、警示、危险等，或表示可跳转的链接、强引导的行动、强引导关注的区域等。
+在中后台系统中，色彩服务于功能。Hunt UI 主要以无色系（黑白灰）搭建整体的后台环境，让用户更关注信息和内容本身。色相仅用于表示功能、语义和倾向，如成功、提醒、警示、危险等，或表示可跳转的链接、强引导的行动、强引导关注的区域等。
 
 <section class="headerSection">
 <div class="headerBox" style="flex: .45;">
@@ -139,7 +139,7 @@
         </p>
     </section>
         <div style="flex: 1;">
-  <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/q6pyumry_6b1992bc.png" style="margin: 0; width: 430px; background-color: #fcfcfc;" />
+  <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/q6pyumry_6b1992bc.png" style="margin: 0; width: 430px; background-color: #fcfcfc;" /> -->
   </div>
 </article>
 
@@ -171,7 +171,7 @@
         </p>
     </section>
     <div display="block" style="flex: 1;">
-      <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/7cx3kows_bd4d920a.png" style="margin: 0 0 56px 0; width: 430px; background-color: #fcfcfc;" />
+      <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/7cx3kows_bd4d920a.png" style="margin: 0 0 56px 0; width: 430px; background-color: #fcfcfc;" /> -->
       <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/pef4qvyn_bd4d920a.png" style="margin: 0; width: 430px; background-color: #fcfcfc;" />
   </div>
 </article>

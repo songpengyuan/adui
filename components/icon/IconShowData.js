@@ -233,9 +233,6 @@ var _default = {
       "name": "copy",
       "keywords": ["copy", "复制", "拷贝"]
     }, {
-      "name": "order",
-      "keywords": ["order", "排序"]
-    }, {
       "name": "cancel-circle-outlined",
       "keywords": ["cancel-circle-outlined", "删除", "关闭", "禁止", "叉"]
     }, {
@@ -381,6 +378,9 @@ var _default = {
   "工具": {
     "description": "以名词、工具为导向",
     "data": [{
+      "name": "order",
+      "keywords": ["order", "订单", "小任务"]
+    }, {
       "name": "mobile",
       "keywords": ["mobile", "手机", "屏幕"]
     }, {
@@ -686,14 +686,14 @@ var _default = {
       "name": "gender",
       "keywords": ["gender", "性别", "男女"]
     }, {
-      "name": "happy",
-      "keywords": ["happy", "笑脸", "开心", "快乐", "满意"]
+      "name": "happy-outlined",
+      "keywords": ["happy-outlined", "笑脸", "开心", "快乐", "满意"]
     }, {
       "name": "music",
       "keywords": ["music", "音乐", "音符"]
     }, {
       "name": "camera",
-      "keywords": ["camera", "相机", "拍照", "摄影", "照片"]
+      "keywords": ["camera", "相机", "拍照", "摄影", "照片", "视频"]
     }, {
       "name": "camera-outlined",
       "keywords": ["camera-outlined", "相机", "拍照", "摄影", "照片"]
@@ -850,6 +850,18 @@ var _default = {
     }, {
       "name": "refund-outlined",
       "keywords": ["refund-outlined", "刷新", "运行", "循环"]
+    }, {
+      "name": "happy",
+      "keywords": ["happy", "笑脸", "开心", "快乐", "满意"]
+    }, {
+      "name": "live",
+      "keywords": ["live", "直播\n"]
+    }, {
+      "name": "unhappy-outlined",
+      "keywords": ["unhappy-outlined", "心情一般", "不开心"]
+    }, {
+      "name": "unhappy",
+      "keywords": ["unhappy", "心情一般", "不开心"]
     }]
   }
 };

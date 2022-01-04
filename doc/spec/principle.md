@@ -1,13 +1,13 @@
 # 设计准则&nbsp; Principle
 
-AD UI 的设计准则针对中后台系统的特性而确定。后台系统较复杂，用户大多带着明确的目的、任务来到系统，对数据进行高效的管理和编辑。这意味着基础的组件更需要简单、易于理解，才能让用户自然上手，专注在任务本身。
+Hunt UI 的设计准则针对中后台系统的特性而确定。后台系统较复杂，用户大多带着明确的目的、任务来到系统，对数据进行高效的管理和编辑。这意味着基础的组件更需要简单、易于理解，才能让用户自然上手，专注在任务本身。
 
-AD UI 设计语言基于 **“少，但更好” （Less, but better）** 的思路，去除冗余元素，以 **简易的工具、秩序的环境** 为准则，让工具融入人的行为，力图让用户除了信息内容、任务本身，不需关注任何其他东西。
+Hunt UI 设计语言基于 **“少，但更好” （Less, but better）** 的思路，去除冗余元素，以 **简易的工具、秩序的环境** 为准则，让工具融入人的行为，力图让用户除了信息内容、任务本身，不需关注任何其他东西。
 
 <section class="headerSection">
   <div class="headerBox" style="padding: 0; background-color: var(--gray-50);">
     <div display="block" style="flex: 1;">
-    <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/w3q78r85_4a47a0db.png" style="margin: 0; background-color: #fcfcfc; box-shadow: none;" />
+    <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/w3q78r85_4a47a0db.png" style="margin: 0; background-color: #fcfcfc; box-shadow: none;" /> -->
     </div>
   </div>
 </section>
@@ -27,7 +27,7 @@ AD UI 设计语言基于 **“少，但更好” （Less, but better）** 的思
         </p>
     </section>
     <div display="block" style="flex: 1;">
-    <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/sl3a8jkb_143a5dde.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" />
+    <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/sl3a8jkb_143a5dde.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" /> -->
     </div>
 </article>
 
@@ -49,6 +49,6 @@ AD UI 设计语言基于 **“少，但更好” （Less, but better）** 的思
         </p>     
     </section>
     <div display="block" style="flex: 1;">
-    <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/h3x8ud7k_4bfa83d9.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" />
+    <!-- <img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/h3x8ud7k_4bfa83d9.png" style="margin: 0; width: 430px;  background-color: #fcfcfc;" /> -->
     </div>
 </article>

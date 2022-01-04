@@ -2,7 +2,7 @@
 title: Visibility
 ---
 
-AD UI 引入了以下功能类，以控制元素的可见与否。
+Hunt UI 引入了以下功能类，以控制元素的可见与否。
 
 相关 CSS 属性：`visibility`
 

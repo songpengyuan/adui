@@ -26,7 +26,7 @@ return (
             }}
           />
         </div>
-        AD UI
+        Hunt UI
       </div>
       <div className="flex items-center">
         <div className="w-28 h-28 rounded-full bg-tp-gray-700" />

@@ -2,7 +2,7 @@
 title: Display
 ---
 
-AD UI 引入了以下功能类，以控制盒模型的种类。
+Hunt UI 引入了以下功能类，以控制盒模型的种类。
 
 相关 CSS 属性：`display`
 

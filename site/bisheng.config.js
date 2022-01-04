@@ -40,7 +40,7 @@ module.exports = {
   htmlTemplate: "./site/theme/static/template.html",
   themeConfig: {
     categoryOrder: {
-      "AD UI": 0,
+      "Hunt UI": 0,
       原则: 1,
       Principles: 1,
       视觉: 2,

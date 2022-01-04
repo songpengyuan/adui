@@ -2,7 +2,7 @@
 title: Animation
 ---
 
-AD UI 引入了以下功能类，以控制元素的动画。
+Hunt UI 引入了以下功能类，以控制元素的动画。
 
 相关 CSS 属性：`animation`
 

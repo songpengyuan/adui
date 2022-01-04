@@ -2,7 +2,7 @@
 title: Align Self
 ---
 
-AD UI 引入了以下功能类，以控制 `flex` 和 `grid` 内单一元素在交叉轴方向上的对齐方式。
+Hunt UI 引入了以下功能类，以控制 `flex` 和 `grid` 内单一元素在交叉轴方向上的对齐方式。
 
 相关 CSS 属性：`align-self`
 

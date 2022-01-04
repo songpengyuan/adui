@@ -2,7 +2,7 @@
 title: Flex Wrap
 ---
 
-AD UI 引入了以下功能类，以控制 `flex` 容器内的元素允许换行的方式。
+Hunt UI 引入了以下功能类，以控制 `flex` 容器内的元素允许换行的方式。
 
 相关 CSS 属性：`flex-wrap`
 

@@ -11,7 +11,7 @@ title:
 return (
   <Layout className="w-full h-420 transform overflow-hidden rounded-t-8">
     <Layout.Header className="pr-16 h-64">
-      <div className="flex items-center ml-28 text-20">AD UI</div>
+      <div className="flex items-center ml-28 text-20">Hunt UI</div>
       <div className="flex items-center">
         <div className="w-28 h-28 rounded-full bg-tp-gray-700" />
         <div className="ml-8 mr-4">Aragakey.</div>

@@ -2,7 +2,7 @@
 title: Transform Origin
 ---
 
-AD UI 引入了以下功能类，以控制元素变形的原点。
+Hunt UI 引入了以下功能类，以控制元素变形的原点。
 
 相关 CSS 属性：`transform-origin`
 

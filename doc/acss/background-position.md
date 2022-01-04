@@ -2,7 +2,7 @@
 title: Background Position
 ---
 
-AD UI 引入了以下功能类，以控制背景图片的初始位置。
+Hunt UI 引入了以下功能类，以控制背景图片的初始位置。
 
 相关 CSS 属性：`background-position`
 
