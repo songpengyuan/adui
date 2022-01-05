@@ -5,7 +5,8 @@ import PropTypes from "prop-types"
 import shallowEqual from "shallowequal"
 import { Link, Router, browserHistory } from "bisheng/router"
 import classNames from "classnames"
-import { LogoLeft, LogoRight } from "./aduiLogo"
+import { LogoLeft, LogoRight } from "./huntUiLogo"
+import { UiColor } from "./huntUiColor"
 import {
   Button,
   ColorPicker,
@@ -35,8 +36,6 @@ class SiteLayout extends React.Component {
     asideCollapsible: false,
     asideCollapsed: true,
     appendNavSide: false,
-    color: "#07c160",
-    visible: false,
     searchInputValue: "",
     selectItem: 0,
   }
@@ -51,22 +50,6 @@ class SiteLayout extends React.Component {
       window.scroll(0, 0)
     }
     return true
-  }
-
-  handleVisibleChange = (visible) => {
-    this.setState({ visible })
-    if (visible) {
-      this.setState({
-        color: getComputedStyle(document.documentElement)
-          .getPropertyValue("--primary-color")
-          .trim(),
-      })
-    }
-  }
-
-  handleColorChange = (color) => {
-    document.documentElement.style.setProperty("--primary-color", color)
-    this.setState({ color })
   }
 
   handleResize = () => {
@@ -196,9 +179,9 @@ class SiteLayout extends React.Component {
       asideCollapsed,
       asideCollapsible,
       appendNavSide,
-      color,
+      // color,
       searchInputValue,
-      visible,
+      // visible,
     } = this.state
 
     const locationStringtoArray = location.pathname.split("/")
@@ -340,57 +323,7 @@ class SiteLayout extends React.Component {
               </Popover> */}
               </Tabs>
               <i />
-              <Popover
-                arrowed={false}
-                placement="bottomRight"
-                getPopupContainer={(trigger) => trigger.parentNode}
-                popup={
-                  <div style={{ padding: "10px" }}>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      {[
-                        "#07c160",
-                        "#4285F4",
-                        "#0AC2A9",
-                        "#ED8D18",
-                        "#D259D4",
-                        "#525252",
-                      ].map((o, i) => (
-                        <div
-                          key={o}
-                          role="none"
-                          onClick={() => this.handleColorChange(o)}
-                          style={{
-                            display: "inline-block",
-                            width: "30px",
-                            height: "30px",
-                            marginRight: i !== 5 ? "6px" : 0,
-                            marginBottom: "6px",
-                            backgroundColor: o,
-                            borderRadius: "4px",
-                            cursor: "pointer",
-                          }}
-                        />
-                      ))}
-                    </div>
-                    <ColorPicker
-                      value={color}
-                      onChange={this.handleColorChange}
-                    />
-                  </div>
-                }
-                trigger="click"
-                visible={visible}
-                onVisibleChange={this.handleVisibleChange}
-              >
-                <div className={styles.picker}>
-                  <i style={{ backgroundColor: "var(--primary-color)" }} />
-                </div>
-              </Popover>
+              <UiColor />
             </div>
           </Layout.Header>
           <div
@@ -429,7 +362,7 @@ class SiteLayout extends React.Component {
                           .slice(1, 100)
                         document
                           .querySelector(
-                            `.adui-layout-asideInner [href="/adui/components/${valUncaped}"]`
+                            `.adui-layout-asideInner [href="/hunt-ui/components/${valUncaped}"]`
                           )
                           .click()
                       }}
@@ -965,7 +898,7 @@ class SiteLayout extends React.Component {
                         针对网页端客户界面而设计，方便设计师与开发搭建整体的后台体验环境。
                       </p>
                       <p>
-                        Hunt UI 
+                        Hunt UI
                         建议以简单、合理的方案解决客户端中的实际使用问题。
                       </p>
                     </div>

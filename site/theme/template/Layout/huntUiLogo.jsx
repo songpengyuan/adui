@@ -16,7 +16,7 @@ export const LogoRight = (props) => (
     style={{
       fontSize: "var(--font-size-large)",
       lineHeight: "24px",
-      color: "#000",
+      color: "var(--primary-color)", // #000
       fontWeight: 500,
     }}
   >

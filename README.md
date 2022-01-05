@@ -1,22 +1,16 @@
 # 开始使用
 
-<div>
-<img src="https://wxa.wxs.qq.com/mpweb/delivery/legacy/wxadtouch/upload/t1/od834zef_52939fc6.png" style="margin:40px 0 0 -8px; background-color: #fcfcfc; box-shadow: none;" />
-</div>
-
-[https://wxad.design/adui](https://wxad.design/adui)
-
 ---
 
 ## 使用 Package
 
-**adui** 已经发布于 NPM。你可以通过你的包管理器安装（比如 [Yarn](https://yarnpkg.com)）：
+**hunt-ui** 已经发布于 NPM。你可以通过你的包管理器安装（比如 [Yarn](https://yarnpkg.com)）：
 
 ```js
-yarn add adui react react-dom
+yarn add hunt-ui react react-dom
 ```
 
-**adui** 目前依赖的 `react` 与 `react-dom` 版本为 16.13.1。**adui 2.0** 使用了 `Hooks` 书写组件，请保证你的 React 版本 ^16.8。
+**hunt-ui** 目前依赖的 `react` 与 `react-dom` 版本为 16.13.1。**hunt-ui 2.0** 使用了 `Hooks` 书写组件，请保证你的 React 版本 ^16.8。
 
 ---
 
@@ -25,12 +19,12 @@ yarn add adui react react-dom
 引入你所需要的 React 组件。
 
 ```js
-import { Button } from "adui"
+import { Button } from "Hunt-ui"
 
 <Button intent="primary">开始使用<Button/>
 ```
 
-你不需要独立地引入样式，因为每个组件都会 import 自己的 `.css` 文件。你只需要保证 webpack 的 `css-loader` 能够作用到 `node_modules/adui` 这个文件夹，就能保证样式的正确。
+你不需要独立地引入样式，因为每个组件都会 import 自己的 `.css` 文件。你只需要保证 webpack 的 `css-loader` 能够作用到 `node_modules/hunt-ui` 这个文件夹，就能保证样式的正确。
 
 未来会加入不需要依赖 webpack 配置的编译版本，届时 CSS 文件会完全与 JS 文件分离。
 
@@ -38,7 +32,7 @@ import { Button } from "adui"
 
 ## 主题色
 
-**adui** 使用了 CSS Variables 实现变量配置。同时配合 [css-vars-ponyfill](https://github.com/jhildenbiddle/css-vars-ponyfill) 解决兼容性问题。  
+**hunt-ui** 使用了 CSS Variables 实现变量配置。同时配合 [css-vars-ponyfill](https://github.com/jhildenbiddle/css-vars-ponyfill) 解决兼容性问题。  
 在引入之后，你的页面上就会有如下的样式：
 
 ```css
@@ -55,7 +49,7 @@ html:root {
 }
 ```
 
-**adui** 还设置了许多其他变量比如 `--gray-50` 至 `--gray-900`，但请不要去修改这些变量。
+**hunt-ui** 还设置了许多其他变量比如 `--gray-50` 至 `--gray-900`，但请不要去修改这些变量。
 
 ---
 
@@ -71,12 +65,12 @@ html:root {
 
 ## 关于组件类型
 
-**adui 2.0** 一部分组件以 `Function Component` + `Hooks` 实现。
+**hunt-ui 2.0** 一部分组件以 `Function Component` + `Hooks` 实现。
 现在，组件一共有 类组件（`Class Component`），函数组件（`Function Component`），以及也属于函数组件的`ForwardRef Component`这三种。
 
 ## 关于内部驱动与外部控制
 
-**adui** 所有包含状态的组件都有两种设计，即 **内部驱动（uncontrolled）** 与 **外部控制（controlled）**。
+**hunt-ui** 所有包含状态的组件都有两种设计，即 **内部驱动（uncontrolled）** 与 **外部控制（controlled）**。
 
 代表内部驱动的 Prop 是 `defaultValue`，代表外部控制的 Prop 是 `value`。比如 `<Switch />` 组件的 `defaultChecked` 与 `checked`。
 
@@ -92,9 +86,9 @@ html:root {
 
 ## ⌨️ 本地开发说明
 
-adui 的开发任务：
+hunt-ui 的开发任务：
 
-1. 建立 adui 站点和组件文档；
+1. 建立 hunt-ui 站点和组件文档；
 2. 书写 components 代码；
 3. 测试；
 4. 提交 pull request；
@@ -110,9 +104,9 @@ adui 的开发任务：
 Vscode
 插件需要：ESlint + Stylelint。
 
-### 建立 adui 站点和组件文档
+### 建立 hunt-ui 站点和组件文档
 
-adui 的文档生成工具是 [bisheng](https://github.com/benjycui/bisheng)。
+hunt-ui 的文档生成工具是 [bisheng](https://github.com/benjycui/bisheng)。
 
 ### 书写 components 代码
 

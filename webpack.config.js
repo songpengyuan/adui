@@ -51,7 +51,7 @@ module.exports = {
   entry,
   plugins: [
     new WebpackBar({
-      name: "📦 adui compiling",
+      name: "📦 Hunt-ui compiling",
       minimal: false,
     }),
     new webpack.DefinePlugin({
