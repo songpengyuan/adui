@@ -11,7 +11,7 @@ import omit from "../_util/omit"
 import ResizeObserver from "../resize-observer"
 import "./style"
 
-const prefix = "adui-affix"
+const prefix = "hunt-affix"
 
 export interface IAffixProps {
   [key: string]: any

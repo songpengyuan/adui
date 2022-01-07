@@ -15,7 +15,7 @@ import getPlacements from "./placements"
 import Popup from "./Popup"
 import "./style"
 
-const prefix = "adui-tooltip"
+const prefix = "hunt-tooltip"
 
 export interface ITooltipProps {
   [key: string]: any

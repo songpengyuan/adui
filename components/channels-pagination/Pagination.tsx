@@ -7,7 +7,7 @@ import Button from "../button"
 import "./style"
 
 const noop = () => {}
-const prefix = "adui-channels-pagination"
+const prefix = "hunt-channels-pagination"
 
 export interface IPaginationProps {
   [key: string]: any

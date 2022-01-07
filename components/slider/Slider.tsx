@@ -10,7 +10,7 @@ import "./style"
 
 const noop = () => {}
 
-const prefix = "adui-slider"
+const prefix = "hunt-slider"
 
 interface IHandleGeneratorInfo {
   [key: string]: any

@@ -6,7 +6,7 @@ import warning from "../_util/warning"
 import { ConfigContext, getComputedSize } from "../config-provider"
 import "./style"
 
-const prefix = "adui-spinner"
+const prefix = "hunt-spinner"
 
 export interface ISpinnerProps {
   [key: string]: any

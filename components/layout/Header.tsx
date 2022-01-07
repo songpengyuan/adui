@@ -6,7 +6,7 @@ import { detectStickySupport } from "../_util/detectStickySupport"
 import { LayoutContext } from "./Context"
 import "./style"
 
-const prefix = "adui-layout"
+const prefix = "hunt-layout"
 
 export interface IHeaderProps {
   [key: string]: any

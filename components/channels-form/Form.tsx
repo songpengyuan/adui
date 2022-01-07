@@ -6,7 +6,7 @@ import Item from "./Item"
 import Tip from "./Tip"
 import "./style"
 
-const prefix = "adui-channels-form"
+const prefix = "hunt-channels-form"
 
 export interface IFormProps {
   [key: string]: any

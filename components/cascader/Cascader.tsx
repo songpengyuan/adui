@@ -10,7 +10,7 @@ import Popover, { IPopoverProps } from "../popover"
 import isEqualArrays from "../_util/isEqualArrays"
 import "./style"
 
-const prefix = "adui-cascader"
+const prefix = "hunt-cascader"
 
 export type CascaderValueType = React.ReactText[]
 

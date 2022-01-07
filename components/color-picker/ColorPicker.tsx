@@ -26,7 +26,7 @@ import {
 import ColorPickerCollapse from "./ColorPickerCollapse"
 import "./style"
 
-const prefix = "adui-cp"
+const prefix = "hunt-cp"
 
 export interface IColorPickerProps {
   [key: string]: any

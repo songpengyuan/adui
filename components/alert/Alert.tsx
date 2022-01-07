@@ -6,7 +6,7 @@ import ICON_INTENTS from "./iconIntents"
 import { ConfigContext, getComputedSize } from "../config-provider"
 import "./style"
 
-const prefix = "adui-alert"
+const prefix = "hunt-alert"
 
 export interface IAlertProps {
   [key: string]: any

@@ -23,7 +23,7 @@ import getPlacements from "../tooltip/placements"
 import { Placement } from "../pop-trigger"
 import "./style"
 
-const prefix = "adui-tree-select"
+const prefix = "hunt-tree-select"
 const noop = () => {}
 
 const strategies = {

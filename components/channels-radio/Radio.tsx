@@ -9,7 +9,7 @@ import Icon, { IconNames } from "../icon"
 import Popover, { IPopoverProps } from "../popover"
 import "./style"
 
-const prefix = "adui-channels-radio"
+const prefix = "hunt-channels-radio"
 
 export interface IRadioProps {
   [key: string]: any

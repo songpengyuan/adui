@@ -8,7 +8,7 @@ import { ConfigContext, getComputedSize } from "../config-provider"
 import { ButtonGroupContext } from "./Context"
 import "./style"
 
-const prefix = "adui-button"
+const prefix = "hunt-button"
 
 export interface IButtonProps {
   [key: string]: any

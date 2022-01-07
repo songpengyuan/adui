@@ -1,29 +1,84 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
+import { ColorPicker, Popover } from "../../../../components"
 import styles from "./site.scss"
+import colorList from "./const"
 
-import {
-  ColorPicker,
-  Popover,
-} from "../../../../components"
-
-export const UiColor = () => {
-  const [color, setColor] = useState("#07c160")
-  const [visible, setVisible] = useState("#07c160")
-
+const UIColorItem = ({ colorItem }) => {
+  const { name, key } = colorItem;
+  const [color, setColor] = useState(colorItem?.defaultVal ?? "#07c160")
   const handleColorChange = (val) => {
-    document.documentElement.style.setProperty("--primary-color", val)
+    // document.documentElement.style.setProperty("--primary-color", val)
+    document.documentElement.style.setProperty(`--${key}`, val)
     setColor(val)
   }
 
+  useEffect(() => {
+    document.documentElement.style.setProperty(`--ht-${key}`, colorItem?.defaultVal)
+  }, [])
+
+  return (
+    <div style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      marginBottom: "6px",
+    }}
+      title={key}
+    >
+      {name}
+      <ColorPicker
+        value={color}
+        onChange={handleColorChange}
+      />
+    </div>
+  )
+}
+
+const UiColorList = () => {
+  return (
+    <div style={{ padding: "10px", maxHeight: '600px', overflow: 'auto' }}>
+      <div
+        style={{
+          width: "100%",
+          marginBottom: "6px",
+        }}
+      >
+        {colorList.map((item) => {
+          return (
+            <div
+              key={item?.title}
+              style={{
+                paddingBottom: "20px",
+              }}
+            >
+              <div
+                style={{
+                  fontSize: "16px",
+                  marginBottom: "8px",
+                }}
+              >
+                {item?.title}
+              </div>
+              <div>
+                {item?.list?.map(colorItem => {
+                  return <UIColorItem
+                    colorItem={colorItem}
+                    key={colorItem.key}
+                  />
+                })}
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+export const UiColor = () => {
+  const [visible, setVisible] = useState(false)
   const handleVisibleChange = (val) => {
     setVisible(val)
-    if (val) {
-      setColor(
-        getComputedStyle(document.documentElement)
-          .getPropertyValue("--primary-color")
-          .trim()
-      )
-    }
   }
 
   return (
@@ -31,45 +86,13 @@ export const UiColor = () => {
       arrowed={false}
       placement="bottomRight"
       getPopupContainer={(trigger) => trigger.parentNode}
-      popup={
-        <div style={{ padding: "10px" }}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-            }}
-          >
-            {[
-              "#07c160",
-              "#4285F4",
-              "#0AC2A9",
-              "#ED8D18",
-              "#D259D4",
-              "#525252",
-            ].map((o, i) => (
-              <div
-                key={o}
-                role="none"
-                onClick={() => handleColorChange(o)}
-                style={{
-                  display: "inline-block",
-                  width: "30px",
-                  height: "30px",
-                  marginRight: i !== 5 ? "6px" : 0,
-                  marginBottom: "6px",
-                  backgroundColor: o,
-                  borderRadius: "4px",
-                  cursor: "pointer",
-                }}
-              />
-            ))}
-          </div>
-          <ColorPicker value={color} onChange={handleColorChange} />
-        </div>
-      }
+      popup={<UiColorList />}
       trigger="click"
       visible={visible}
       onVisibleChange={handleVisibleChange}
+      popupStyle={{
+        maxWidth: 'auto'
+      }}
     >
       <div className={styles.picker}>
         <i style={{ backgroundColor: "var(--primary-color)" }} />

@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { ConfigContext, getComputedSize } from "../config-provider"
 import "./style"
 
-const prefix = "adui-switch"
+const prefix = "hunt-switch"
 
 export interface ISwitchProps {
   [key: string]: any

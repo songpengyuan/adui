@@ -4,7 +4,7 @@ import "./style"
 import Icon from "../icon"
 import { getDefaultMaxDate, getDefaultMinDate } from "./core"
 
-const prefix = "adui-date"
+const prefix = "hunt-date"
 
 export interface ICaptionProps {
   [key: string]: any

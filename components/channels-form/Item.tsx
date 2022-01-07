@@ -6,7 +6,7 @@ import Popover, { IPopoverProps } from "../popover"
 import { FormContext } from "./Context"
 import "./style"
 
-const prefix = "adui-channels-form"
+const prefix = "hunt-channels-form"
 
 export interface IItemProps {
   [key: string]: any

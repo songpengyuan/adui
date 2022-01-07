@@ -7,7 +7,7 @@ import Button from "../button"
 import Portal from "../portal"
 import "./style"
 
-const prefix = "adui-drawer"
+const prefix = "hunt-drawer"
 
 const scrollbarWidth = getScrollBarSize()
 let bodyIsOverflowing = false

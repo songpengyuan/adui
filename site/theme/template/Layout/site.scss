@@ -205,6 +205,9 @@ body {
     height: 20px;
     background-color: #f3f3f3;
   }
+  .adui-tooltip-base {
+    max-width: 100% !important;
+  }
 }
 .tabs {
   align-self: flex-end;
@@ -224,6 +227,9 @@ body {
     width: 24px;
     height: 24px;
     border-radius: inherit;
+  }
+  .adui-input-base {
+    padding-left: 24px;
   }
 }
 .picker-popup {

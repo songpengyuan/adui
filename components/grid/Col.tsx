@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { RowContext } from "./Context"
 import "./style"
 
-const prefix = "adui-grid"
+const prefix = "hunt-grid"
 
 export interface IColProps {
   [key: string]: any

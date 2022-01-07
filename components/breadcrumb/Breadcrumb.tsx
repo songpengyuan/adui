@@ -5,7 +5,7 @@ import { ConfigContext, getComputedSize } from "../config-provider"
 import Item from "./Item"
 import "./style"
 
-const prefix = "adui-breadcrumb"
+const prefix = "hunt-breadcrumb"
 
 export type { IItemProps } from "./Item"
 

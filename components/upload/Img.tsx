@@ -12,7 +12,7 @@ import getScrollBarSize from "rc-util/lib/getScrollBarSize"
 import Icon, { IconNames } from "../icon"
 import "./style"
 
-const prefix = "adui-upload-img"
+const prefix = "hunt-upload-img"
 
 export interface IImgProps {
   [key: string]: any

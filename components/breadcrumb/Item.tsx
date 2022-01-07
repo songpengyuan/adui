@@ -4,7 +4,7 @@ import classNames from "classnames"
 import Icon from "../icon"
 import "./style"
 
-const prefix = "adui-breadcrumb"
+const prefix = "hunt-breadcrumb"
 
 export interface IItemProps {
   [key: string]: any

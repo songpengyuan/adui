@@ -4,7 +4,7 @@ import classNames from "classnames"
 import Header from "./Header"
 import "./style"
 
-const prefix = "adui-card"
+const prefix = "hunt-card"
 
 export interface ICardProps {
   [key: string]: any

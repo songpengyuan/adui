@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import classNames from "classnames"
 import "./style"
 
-const prefix = "adui-channels-form"
+const prefix = "hunt-channels-form"
 
 export interface ITipProps {
   [key: string]: any

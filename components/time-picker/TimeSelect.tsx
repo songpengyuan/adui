@@ -14,7 +14,7 @@ import "./style"
 import { extractHourAndMinuteFromTime, hours, minutes } from "./core"
 import { ConfigContext, getComputedSize } from "../config-provider"
 
-const prefix = "adui-time"
+const prefix = "hunt-time"
 const noop = () => {}
 
 export interface ITimeSelectProps {

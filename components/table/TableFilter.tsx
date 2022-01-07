@@ -7,7 +7,7 @@ import Checkbox from "../checkbox"
 import Radio from "../radio"
 import "./style"
 
-const prefix = "adui-table"
+const prefix = "hunt-table"
 const getFilteredValue = (val?: Array<React.ReactText> | null) => {
   if (val === null || val === undefined || val.length === 0) {
     return ["all"]

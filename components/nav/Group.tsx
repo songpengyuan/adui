@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import classNames from "classnames"
 import "./style"
 
-const prefix = "adui-nav"
+const prefix = "hunt-nav"
 
 export interface IGroupProps {
   [key: string]: any

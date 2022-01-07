@@ -11,7 +11,7 @@ import classNames from "classnames"
 import Dialog, { IDialogProps } from "./Dialog"
 import "./style"
 
-const prefix = "adui-channels-dialog"
+const prefix = "hunt-channels-dialog"
 export interface IConfirmProps extends IDialogProps {
   content?: React.ReactNode
   contentTitle?: React.ReactNode

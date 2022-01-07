@@ -14,7 +14,7 @@ import { ConfigContext, getComputedSize } from "../config-provider"
 import Textarea from "./Textarea"
 import "./style"
 
-const prefix = "adui-channels-input"
+const prefix = "hunt-channels-input"
 
 export interface IInputProps {
   [key: string]: any

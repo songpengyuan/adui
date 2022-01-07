@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import classNames from "classnames"
 import "./style"
 
-const prefix = "adui-layout"
+const prefix = "hunt-layout"
 
 export interface IMainProps {
   [key: string]: any

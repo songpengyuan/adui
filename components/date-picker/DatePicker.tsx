@@ -37,7 +37,7 @@ import {
 } from "./core"
 
 const DayPicker = DPR.__esModule ? DPR.default : DPR
-const prefix = "adui-date"
+const prefix = "hunt-date"
 const noop = () => {}
 
 export interface IDatePickerProps {

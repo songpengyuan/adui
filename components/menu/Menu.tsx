@@ -7,7 +7,7 @@ import { MenuContext } from "./Context"
 import "./style"
 
 const noop = () => {}
-const prefix = "adui-menu"
+const prefix = "hunt-menu"
 
 export interface IMenuProps {
   [key: string]: any

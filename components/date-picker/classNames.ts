@@ -1,4 +1,4 @@
-const prefix = "adui-date"
+const prefix = "hunt-date"
 
 export default {
   body: `${prefix}-body`,

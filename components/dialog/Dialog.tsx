@@ -9,7 +9,7 @@ import Button, { IButtonProps } from "../button"
 import Icon from "../icon"
 import "./style"
 
-const prefix = "adui-dialog"
+const prefix = "hunt-dialog"
 
 interface IStepProps {
   /**

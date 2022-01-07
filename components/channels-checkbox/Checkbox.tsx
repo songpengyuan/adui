@@ -10,7 +10,7 @@ import Popover, { IPopoverProps } from "../popover"
 import { ConfigContext, getComputedSize } from "../config-provider"
 import "./style"
 
-const prefix = "adui-channels-checkbox"
+const prefix = "hunt-channels-checkbox"
 
 export interface ICheckboxProps {
   [key: string]: any

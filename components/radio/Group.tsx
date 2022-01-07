@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { GroupContext } from "./Context"
 import "./style"
 
-const prefix = "adui-radio"
+const prefix = "hunt-radio"
 
 type ValueType = React.ReactText
 

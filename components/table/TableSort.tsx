@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import classNames from "classnames"
 import "./style"
 
-const prefix = "adui-table"
+const prefix = "hunt-table"
 
 export interface ITableSortProps {
   onSort?: ((order: "asc" | "desc" | "") => void) | null

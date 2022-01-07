@@ -13,7 +13,7 @@ import "./style"
 
 const noop = () => {}
 
-const prefix = "adui-channels-input"
+const prefix = "hunt-channels-input"
 
 export interface ITextareaProps {
   [key: string]: any

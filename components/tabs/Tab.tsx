@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { TabsContext } from "./Context"
 import "./style"
 
-const prefix = "adui-tabs"
+const prefix = "hunt-tabs"
 
 export interface ITabProps {
   [key: string]: any

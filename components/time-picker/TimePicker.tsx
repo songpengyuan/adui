@@ -21,7 +21,7 @@ import {
   isTimeBefore,
 } from "./core"
 
-const prefix = "adui-time"
+const prefix = "hunt-time"
 const noop = () => {}
 
 export interface ITimePickerProps {

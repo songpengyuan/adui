@@ -10,7 +10,7 @@ import { NavContext } from "./Context"
 import "./style"
 
 const noop = () => {}
-const prefix = "adui-nav"
+const prefix = "hunt-nav"
 
 export interface INavProps {
   [key: string]: any

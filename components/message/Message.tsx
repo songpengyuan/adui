@@ -12,7 +12,7 @@ import Icon, { IconNames } from "../icon"
 import ICON_INTENTS from "../alert/iconIntents"
 import "./style"
 
-const prefix = "adui-message"
+const prefix = "hunt-message"
 const INTENTS = ["normal", "primary", "success", "warning", "danger"]
 
 export interface IMessageProps {

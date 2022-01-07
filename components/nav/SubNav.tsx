@@ -5,7 +5,7 @@ import Icon, { IconNames } from "../icon"
 import { NavContext } from "./Context"
 import "./style"
 
-const prefix = "adui-nav"
+const prefix = "hunt-nav"
 
 export interface ISubNavProps {
   [key: string]: any

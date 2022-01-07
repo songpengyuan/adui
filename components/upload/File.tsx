@@ -5,7 +5,7 @@ import Icon, { IconNames } from "../icon"
 import Motion from "../motion"
 import "./style"
 
-const prefix = "adui-upload-file"
+const prefix = "hunt-upload-file"
 
 export interface IFileProps {
   [key: string]: any

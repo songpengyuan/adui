@@ -9,7 +9,7 @@ import Portal from "../portal"
 import Button, { IButtonProps } from "../channels-button"
 import "./style"
 
-const prefix = "adui-channels-dialog"
+const prefix = "hunt-channels-dialog"
 
 interface IStepProps {
   /**

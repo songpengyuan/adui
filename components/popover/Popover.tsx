@@ -6,7 +6,7 @@ import Tooltip, { ITooltipProps } from "../tooltip"
 import getPlacements from "./placements"
 import "./style"
 
-const prefix = "adui-popover"
+const prefix = "hunt-popover"
 
 export interface IPopoverProps extends ITooltipProps {
   [key: string]: any

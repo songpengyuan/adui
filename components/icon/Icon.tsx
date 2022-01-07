@@ -6,7 +6,7 @@ import IconSvgPaths from "./IconSvgPaths"
 import { IIconNames } from "./IconNames"
 import "./style"
 
-const prefix = "adui-icon"
+const prefix = "hunt-icon"
 
 export type IconNames = keyof IIconNames
 

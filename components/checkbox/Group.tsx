@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { GroupContext } from "./Context"
 import "./style"
 
-const prefix = "adui-checkbox"
+const prefix = "hunt-checkbox"
 
 type ValueType = React.ReactText
 

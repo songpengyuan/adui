@@ -11,7 +11,7 @@ import Dialog, { IDialogProps } from "./Dialog"
 import Icon from "../icon"
 import "./style"
 
-const prefix = "adui-dialog"
+const prefix = "hunt-dialog"
 
 const ICON_INTENTS = {
   danger: "alert-circle" as "alert-circle",

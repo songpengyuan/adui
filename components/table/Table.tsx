@@ -42,7 +42,7 @@ interface IFixedColumnsInfo {
 
 /* eslint-disable no-nested-ternary */
 const noop = () => {}
-const prefix = "adui-table"
+const prefix = "hunt-table"
 const TD_MIN_WIDTH = 100
 const SELECT_TD_WIDTH = 50
 const SELECT_AND_EXPAND_TD_WIDTH = 80

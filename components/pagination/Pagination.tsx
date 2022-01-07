@@ -8,7 +8,7 @@ import Input from "../input"
 import "./style"
 
 const noop = () => {}
-const prefix = "adui-pagination"
+const prefix = "hunt-pagination"
 
 export interface IPaginationProps {
   [key: string]: any

@@ -15,7 +15,7 @@ import Tab from "./Tab"
 import { TabsContext } from "./Context"
 import "./style"
 
-const prefix = "adui-tabs"
+const prefix = "hunt-tabs"
 
 export interface ITabsProps {
   [key: string]: any

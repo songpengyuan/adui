@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { ITrigger } from "../pop-trigger"
 import "./style"
 
-const prefix = "adui-tooltip"
+const prefix = "hunt-tooltip"
 
 export interface IPopupProps {
   [key: string]: any

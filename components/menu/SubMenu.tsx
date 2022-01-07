@@ -5,7 +5,7 @@ import Icon from "../icon"
 import { MenuContext } from "./Context"
 import "./style"
 
-const prefix = "adui-menu"
+const prefix = "hunt-menu"
 
 export interface ISubMenuProps {
   [key: string]: any

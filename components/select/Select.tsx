@@ -22,7 +22,7 @@ import "./style"
  */
 
 const noop = () => {}
-const prefix = "adui-select"
+const prefix = "hunt-select"
 
 export interface ISelect {
   forcePopupAlign?: () => void

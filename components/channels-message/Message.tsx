@@ -11,7 +11,7 @@ import classNames from "classnames"
 import Button from "../button"
 import "./style"
 
-const prefix = "adui-channels-message"
+const prefix = "hunt-channels-message"
 const INTENTS = ["normal", "primary", "success", "warning", "danger"]
 
 export interface IMessageProps {

@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { ConfigContext, getComputedSize } from "../config-provider"
 import "./style"
 
-const prefix = "adui-card"
+const prefix = "hunt-card"
 
 export interface IHeaderProps {
   [key: string]: any

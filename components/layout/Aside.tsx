@@ -8,7 +8,7 @@ import { preventOuterScroll } from "../_util/preventOuterScroll"
 import { LayoutContext } from "./Context"
 import "./style"
 
-const prefix = "adui-layout"
+const prefix = "hunt-layout"
 
 export interface IAsideProps {
   [key: string]: any

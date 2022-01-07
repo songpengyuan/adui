@@ -5,7 +5,7 @@ import "./style"
 import Button from "../button"
 import { areSameMonth, getDefaultMaxDate, getDefaultMinDate } from "./core"
 
-const prefix = "adui-date"
+const prefix = "hunt-date"
 
 export interface INavbarProps {
   [key: string]: any

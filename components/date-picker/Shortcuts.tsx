@@ -4,7 +4,7 @@ import classNames from "classnames"
 import { DateUtils } from "day-picker-react"
 import "./style"
 
-const prefix = "adui-date"
+const prefix = "hunt-date"
 
 export interface IShortcutsProps {
   [key: string]: any

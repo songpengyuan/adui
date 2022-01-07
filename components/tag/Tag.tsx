@@ -5,7 +5,7 @@ import { ConfigContext, getComputedSize } from "../config-provider"
 import Icon from "../icon"
 import "./style"
 
-const prefix = "adui-tag"
+const prefix = "hunt-tag"
 
 export interface ITagProps {
   [key: string]: any

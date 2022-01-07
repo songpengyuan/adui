@@ -6,7 +6,7 @@ import Icon from "../icon"
 import "./style"
 import { isLegal, stringToNumber, getDecimalNumber } from "./core"
 
-const prefix = "adui-numeric-input"
+const prefix = "hunt-numeric-input"
 
 export interface INumericInputProps
   extends Omit<IInputProps, "defaultValue" | "onChange" | "value"> {

@@ -13,7 +13,7 @@ import Tab from "./Tab"
 import { TabsContext } from "./Context"
 import "./style"
 
-const prefix = "adui-channels-tabs"
+const prefix = "hunt-channels-tabs"
 
 export interface ITabsProps {
   [key: string]: any

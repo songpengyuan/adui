@@ -4,7 +4,7 @@ import classNames from "classnames"
 import Icon from "../icon"
 import "./style"
 
-const prefix = "adui-cp"
+const prefix = "hunt-cp"
 
 export interface ICollapseProps {
   className?: string

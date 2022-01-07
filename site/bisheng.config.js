@@ -28,7 +28,7 @@ function usePrettyWebpackBar(config) {
 }
 
 module.exports = {
-  root: "/adui/",
+  root: "/hunt/",
   port: 8000,
   hash: true,
   source: {
@@ -66,7 +66,7 @@ module.exports = {
       loader: "css-loader",
       options: {
         modules: {
-          localIdentName: "adui-[name]-[local]",
+          localIdentName: "hunt-[name]-[local]",
         },
       },
     }
@@ -99,8 +99,8 @@ module.exports = {
             loader: "style-loader",
             options: {
               attributes: {
-                id: "adui",
-                key: "adui",
+                id: "hunt",
+                key: "hunt",
               },
             },
           },
@@ -122,8 +122,8 @@ module.exports = {
             loader: "style-loader",
             options: {
               attributes: {
-                id: "adui",
-                key: "adui",
+                id: "hunt",
+                key: "hunt",
               },
             },
           },
