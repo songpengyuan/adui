@@ -44,7 +44,7 @@ describe("Select", () => {
       wrapper.find("Trigger").instance().getComponent()
     )
     expect(dropdownWrapper.props().visible).toBe(true)
-    dropdownWrapper.find(".adui-select-item-option").at(0).simulate("click")
+    dropdownWrapper.find(".hunt-select-item-option").at(0).simulate("click")
     // 需要重新获取
     dropdownWrapper = mount(wrapper.find("Trigger").instance().getComponent())
     expect(wrapper.state().value).toBe(1)
@@ -64,7 +64,7 @@ describe("Select", () => {
     )
     expect(wrapper.state().value).toBe(2)
     expect(dropdownWrapper.props().visible).toBe(true)
-    dropdownWrapper.find(".adui-select-item-option").at(0).simulate("click")
+    dropdownWrapper.find(".hunt-select-item-option").at(0).simulate("click")
     // 需要重新获取
     dropdownWrapper = mount(wrapper.find("Trigger").instance().getComponent())
     expect(wrapper.state().value).toBe(2)
@@ -114,12 +114,12 @@ describe("Select", () => {
   //     console.log(dropdownWrapper.find("input").at(0).props(), "yijie")
   //     expect(
   //       dropdownWrapper
-  //         .find(".adui-select-item-option")
+  //         .find(".hunt-select-item-option")
   //         .at(0)
   //         .text()
   //     ).toBe("gongzhonghao")
   //     dropdownWrapper
-  //       .find(".adui-select-item-option")
+  //       .find(".hunt-select-item-option")
   //       .at(0)
   //       .simulate("click")
   //   })

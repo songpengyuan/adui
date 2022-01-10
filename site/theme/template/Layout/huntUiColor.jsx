@@ -4,16 +4,17 @@ import styles from "./site.scss"
 import colorList from "./const"
 
 const UIColorItem = ({ colorItem }) => {
-  const { name, key } = colorItem;
+  const { name, key } = colorItem
   const [color, setColor] = useState(colorItem?.defaultVal ?? "#07c160")
   const handleColorChange = (val) => {
-    // document.documentElement.style.setProperty("--primary-color", val)
     document.documentElement.style.setProperty(`--${key}`, val)
     setColor(val)
   }
 
   useEffect(() => {
-    document.documentElement.style.setProperty(`--ht-${key}`, colorItem?.defaultVal)
+    document.documentElement
+            .style
+            .setProperty(`--ht-${key}`, colorItem?.defaultVal)
   }, [])
 
   return (
@@ -27,6 +28,9 @@ const UIColorItem = ({ colorItem }) => {
     >
       {name}
       <ColorPicker
+        style={{
+          width: '128px'
+        }}
         value={color}
         onChange={handleColorChange}
       />
@@ -36,7 +40,7 @@ const UIColorItem = ({ colorItem }) => {
 
 const UiColorList = () => {
   return (
-    <div style={{ padding: "10px", maxHeight: '600px', overflow: 'auto' }}>
+    <div style={{padding: '10px', maxHeight: '400px', overflow: 'auto' }}>
       <div
         style={{
           width: "100%",
@@ -61,10 +65,12 @@ const UiColorList = () => {
               </div>
               <div>
                 {item?.list?.map(colorItem => {
-                  return <UIColorItem
-                    colorItem={colorItem}
-                    key={colorItem.key}
-                  />
+                  return (
+                    <UIColorItem
+                      colorItem={colorItem}
+                      key={colorItem.key}
+                    />
+                  )
                 })}
               </div>
             </div>

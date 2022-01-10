@@ -361,7 +361,7 @@ class Select<T extends ValueType = ValueType> extends React.Component<
             if (id) {
               const parent = document.getElementById(id)?.nextSibling as Element
               const el = parent?.getElementsByClassName(
-                "adui-select-item-option-selected"
+                "hunt-select-item-option-selected"
               )[0]?.children[0] as HTMLElement
 
               const listHolder = parent?.getElementsByClassName(
@@ -465,7 +465,7 @@ class Select<T extends ValueType = ValueType> extends React.Component<
         this.setState({ selectId: id })
       }
       const realInput = document.querySelector(
-        `.adui-select-selection-search [aria-owns="${id}"]`
+        `.hunt-select-selection-search [aria-owns="${id}"]`
       ) as any
       if (realInput) {
         const lastValue = realInput.value
@@ -562,8 +562,8 @@ class Select<T extends ValueType = ValueType> extends React.Component<
             dropdownAlign={
               getPlacements({ alignEdge: true })[placement || "bottomLeft"]
             }
-            dropdownClassName={`adui-select-dropdown-${size} ${
-              searchable ? "adui-select-dropdown-searchable" : ""
+            dropdownClassName={`hunt-select-dropdown-${size} ${
+              searchable ? "hunt-select-dropdown-searchable" : ""
             }`}
             dropdownRender={this.handleDropdownRender}
             inputIcon={
@@ -609,7 +609,7 @@ class Select<T extends ValueType = ValueType> extends React.Component<
                 placeholder
               )
             }
-            prefixCls="adui-select"
+            prefixCls="hunt-select"
             // 开启 showSearch 才可能 hack 式地触发 input change 事件
             showSearch
             ref={this.saveSelect}

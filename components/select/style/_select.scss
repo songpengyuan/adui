@@ -371,8 +371,8 @@ $prefix: "hunt-select";
   }
 
   &-open {
-    &.adui-select-light {
-      .adui-select-selector {
+    &.hunt-select-light {
+      .hunt-select-selector {
         &::after {
           opacity: 0.1;
           transform: scale(1);
