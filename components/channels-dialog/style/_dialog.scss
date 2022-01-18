@@ -94,22 +94,22 @@ $prefix: "hunt-channels-dialog";
   }
   &-success {
     .#{$prefix}-intentIcon {
-      fill: var(--ad-green);
+      fill: var(--ht-green);
     }
   }
   &-info {
     .#{$prefix}-intentIcon {
-      fill: var(--ad-blue);
+      fill: var(--ht-blue);
     }
   }
   &-warning {
     .#{$prefix}-intentIcon {
-      fill: var(--ad-orange);
+      fill: var(--ht-orange);
     }
   }
   &-danger {
     .#{$prefix}-intentIcon {
-      fill: var(--ad-red);
+      fill: var(--ht-red);
     }
   }
   &-intentTitle {

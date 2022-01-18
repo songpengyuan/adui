@@ -21,42 +21,48 @@
 $prefix: "hunt-button";
 
 $colors: (
-  normal-text: var(--gray-900),
-  normal-bg: #fff,
-  normal-bg-hover: var(--gray-100),
-  normal-bg-active: var(--gray-200),
+  normal-text: var(--ht-color_second_button_border),
+  normal-bg: var(--ht-color_second_button_bg),
+  normal-bg-hover: (
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    var(--ht-color_second_button_bg),
+  ),
+  normal-bg-active: (
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--ht-color_second_button_bg),
+  ),
   normal-border: (
     0 3px 3px 0 rgba(0, 0, 0, 0.03),
-    0 0 0 1px var(--gray-400),
+    0 0 0 1px var(--ht-color_second_button_border),
   ),
   normal-border-hover: (
     0 3px 3px 0 rgba(0, 0, 0, 0.03),
-    0 0 0 1px var(--gray-500),
+    0 0 0 1px var(--ht-color_second_button_border),
   ),
   normal-border-active: (
     inset 0 1px 2px 0 rgba(0, 0, 0, 0.04),
-    0 0 0 1px var(--gray-500),
+    0 0 0 1px var(--ht-color_second_button_border),
   ),
-  primary-text: #fff,
+  primary-text: var(--ht-color_button_text),
   primary-bg: var(--primary-color),
   primary-bg-gradient-hover:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%),
   primary-bg-gradient-active:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
   success-text: #fff,
-  success-bg: var(--ad-green),
+  success-bg: var(--ht-green),
   success-bg-gradient-hover:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%),
   success-bg-gradient-active:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
   warning-text: #fff,
-  warning-bg: var(--ad-orange),
+  warning-bg: var(--ht-orange),
   warning-bg-gradient-hover:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%),
   warning-bg-gradient-active:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
   danger-text: #fff,
-  danger-bg: var(--ad-red),
+  danger-bg: var(--ht-red),
   danger-bg-gradient-hover:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%),
   danger-bg-gradient-active:
@@ -66,9 +72,9 @@ $colors: (
   normal-light-text-active: var(--gray-900),
   normal-light-color: var(--gray-800),
   primary-light-color: var(--primary-color),
-  success-light-color: var(--ad-green),
-  warning-light-color: var(--ad-orange),
-  danger-light-color: var(--ad-red),
+  success-light-color: var(--ht-green),
+  warning-light-color: var(--ht-orange),
+  danger-light-color: var(--ht-red),
 );
 
 /*  
@@ -86,7 +92,8 @@ $colors: (
   } @else {
     .#{$prefix}-leftIcon,
     .#{$prefix}-rightIcon {
-      fill: var(--gray-800);
+      // fill: var(--gray-800);
+      fill: var(--ht-color_second_button_border);
     }
   }
   color: map.get($colors, #{$type}#{-text});
@@ -99,8 +106,9 @@ $colors: (
   }
 
   &:hover {
+    // background-color: map.get($colors, #{$type}#{-bg-hover});
+    background: map.get($colors, #{$type}#{-bg-hover});
     background-image: map.get($colors, #{$type}#{-bg-gradient-hover});
-    background-color: map.get($colors, #{$type}#{-bg-hover});
     @if $type != "normal" {
       box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
         0 0 0 1px map.get($colors, #{$type}#{-bg});
@@ -111,8 +119,9 @@ $colors: (
 
   &.#{$prefix}-active,
   &:active {
+    // background-color: map.get($colors, #{$type}#{-bg-active});
+    background: map.get($colors, #{$type}#{-bg-active});
     background-image: map.get($colors, #{$type}#{-bg-gradient-active});
-    background-color: map.get($colors, #{$type}#{-bg-active});
     @if $type != "normal" {
       box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.04),
         0 0 0 1px rgba(0, 0, 0, 0.3), 0 0 0 1px map.get($colors, #{$type}#{-bg});

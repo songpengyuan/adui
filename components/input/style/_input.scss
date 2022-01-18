@@ -141,47 +141,47 @@ $prefix: "hunt-input";
   }
   &-success {
     .#{$prefix}-base {
-      box-shadow: 0 0 0 1px var(--ad-green);
+      box-shadow: 0 0 0 1px var(--ht-green);
 
       &:hover {
-        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 0 0 1px var(--ad-green);
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 0 0 1px var(--ht-green);
       }
 
       &:focus {
-        box-shadow: 0 0 0 1px var(--ad-green),
-          0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ad-green);
+        box-shadow: 0 0 0 1px var(--ht-green),
+          0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ht-green);
       }
     }
   }
   &-warning {
     .#{$prefix}-base {
-      box-shadow: 0 0 0 1px var(--ad-orange);
+      box-shadow: 0 0 0 1px var(--ht-orange);
 
       &:hover {
-        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 0 0 1px var(--ad-orange);
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 0 0 1px var(--ht-orange);
       }
 
       &:focus {
-        box-shadow: 0 0 0 1px var(--ad-orange),
-          0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ad-orange);
+        box-shadow: 0 0 0 1px var(--ht-orange),
+          0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ht-orange);
       }
     }
   }
   &-danger {
     .#{$prefix}-base {
-      box-shadow: 0 0 0 1px var(--ad-red);
+      box-shadow: 0 0 0 1px var(--ht-red);
 
       &:hover {
-        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 0 0 1px var(--ad-red);
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 0 0 1px var(--ht-red);
       }
 
       &:focus {
-        box-shadow: 0 0 0 1px var(--ad-red), 0 0 0 4px rgba(255, 255, 255, 0.7),
-          0 0 0 4px var(--ad-red);
+        box-shadow: 0 0 0 1px var(--ht-red), 0 0 0 4px rgba(255, 255, 255, 0.7),
+          0 0 0 4px var(--ht-red);
       }
     }
     .#{$prefix}-limit {
-      color: var(--ad-red);
+      color: var(--ht-red);
     }
   }
   &-disabled {

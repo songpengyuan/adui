@@ -1,9 +1,9 @@
-.adui-slider-wrapper {
+.hunt-slider-wrapper {
   display: flex;
   align-items: center;
   user-select: none;
 }
-.adui-slider {
+.hunt-slider {
   flex: 1;
   list-style: none;
   position: relative;
@@ -13,20 +13,20 @@
   height: 12px;
   cursor: pointer;
 }
-.adui-slider-active {
-  .adui-slider-rail {
+.hunt-slider-active {
+  .hunt-slider-rail {
     background-color: var(--gray-500);
   }
-  .adui-slider-handle {
+  .hunt-slider-handle {
     transform: scale(1.2);
     box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.1),
       0 2px 2px 0 rgba(0, 0, 0, 0.1);
   }
 }
-.adui-slider-hasMarks {
+.hunt-slider-hasMarks {
   padding-bottom: 12px;
 }
-.adui-slider-rail {
+.hunt-slider-rail {
   position: absolute;
   width: 100%;
   height: 4px;
@@ -34,14 +34,14 @@
   border-radius: 2px;
   transition: background-color var(--motion-duration-slow);
 }
-.adui-slider-track {
+.hunt-slider-track {
   position: absolute;
   height: 4px;
   background-color: var(--primary-color);
   border-radius: 4px;
   transition: background-color var(--motion-duration-slow) var(--ease-in-out);
 }
-.adui-slider-handle {
+.hunt-slider-handle {
   position: absolute;
   margin-top: -4px;
   cursor: pointer;
@@ -54,28 +54,28 @@
     transform var(--motion-duration-slow) cubic-bezier(0.18, 0.89, 0.32, 1.28),
     box-shadow var(--motion-duration-fast) ease;
 }
-.adui-slider-handle:hover {
+.hunt-slider-handle:hover {
   transform: scale(1.2);
 }
-.adui-slider-handle:focus {
+.hunt-slider-handle:focus {
   outline: none;
 }
-.adui-slider-handle.ant-tooltip-open {
+.hunt-slider-handle.ant-tooltip-open {
   border-color: #1890ff;
 }
-.adui-slider:hover .adui-slider-rail {
+.hunt-slider:hover .hunt-slider-rail {
   background-color: var(--gray-500);
 }
-.adui-slider:hover .adui-slider-handle:not(.ant-tooltip-open) {
+.hunt-slider:hover .hunt-slider-handle:not(.ant-tooltip-open) {
   border-color: #69c0ff;
 }
-.adui-slider-step {
+.hunt-slider-step {
   position: absolute;
   width: 100%;
   height: 4px;
   background: transparent;
 }
-.adui-slider-mark-text {
+.hunt-slider-mark-text {
   position: absolute;
   top: 14px;
   font-size: 13px;
@@ -85,11 +85,11 @@
   word-break: keep-all;
   cursor: pointer;
 }
-.adui-slider-disabled {
+.hunt-slider-disabled {
   cursor: not-allowed;
 
-  .adui-slider-mark-text,
-  .adui-slider-handle {
+  .hunt-slider-mark-text,
+  .hunt-slider-handle {
     cursor: not-allowed;
   }
 }

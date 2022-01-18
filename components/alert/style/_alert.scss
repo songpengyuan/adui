@@ -112,16 +112,16 @@ $prefix: "hunt-alert";
     color: var(--primary-color);
   }
   &-success {
-    color: var(--ad-green);
+    color: var(--ht-green);
   }
   &-info {
-    color: var(--ad-blue);
+    color: var(--ht-blue);
   }
   &-warning {
-    color: var(--ad-orange);
+    color: var(--ht-orange);
   }
   &-danger {
-    color: var(--ad-red);
+    color: var(--ht-red);
   }
   &-medium {
     .#{$prefix} {

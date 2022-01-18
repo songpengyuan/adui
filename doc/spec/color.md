@@ -16,28 +16,28 @@
       </div>
     </div>
     <div class="colorPalette">
-      <div class="colorSwatch" style="background-color: var(--ad-green);"></div>
+      <div class="colorSwatch" style="background-color: var(--ht-green);"></div>
       <div>
       <div class="colorTitle"> 绿 </div>
       <div class="colorSubTitle">#07C160</div>
       </div>
     </div>
     <div class="colorPalette">
-      <div class="colorSwatch" style="background-color: var(--ad-blue);"></div>
+      <div class="colorSwatch" style="background-color: var(--ht-blue);"></div>
       <div>
       <div class="colorTitle"> 蓝 </div>
       <div class="colorSubTitle">#2B7BD6</div>
       </div>
     </div>
     <div class="colorPalette">
-      <div class="colorSwatch" style="background-color: var(--ad-orange);"></div>
+      <div class="colorSwatch" style="background-color: var(--ht-orange);"></div>
       <div>
       <div class="colorTitle"> 橙 </div>
       <div class="colorSubTitle">#F6B940</div>
       </div>
     </div>
     <div class="colorPalette">
-      <div class="colorSwatch" style="background-color: var(--ad-red);"></div>
+      <div class="colorSwatch" style="background-color: var(--ht-red);"></div>
       <div>
       <div class="colorTitle"> 红 </div>
       <div class="colorSubTitle">#D9514C</div>

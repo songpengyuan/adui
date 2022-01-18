@@ -34,13 +34,13 @@ $prefix: "hunt-channels-button";
 
       &.#{$prefix}-success {
         .#{$prefix}-spinner {
-          background-color: var(--ad-green);
+          background-color: var(--ht-green);
         }
       }
 
       &.#{$prefix}-warning {
         .#{$prefix}-spinner {
-          background-color: var(--ad-orange);
+          background-color: var(--ht-orange);
         }
       }
 
@@ -240,7 +240,7 @@ $prefix: "hunt-channels-button";
   &.#{$prefix}-success {
     .#{$prefix}-spinner {
       &::after {
-        background-color: var(--ad-green);
+        background-color: var(--ht-green);
       }
     }
   }
@@ -248,7 +248,7 @@ $prefix: "hunt-channels-button";
   &.#{$prefix}-warning {
     .#{$prefix}-spinner {
       &::after {
-        background-color: var(--ad-orange);
+        background-color: var(--ht-orange);
       }
     }
   }
@@ -310,7 +310,7 @@ $prefix: "hunt-channels-button";
       &.#{$prefix}-warning {
         &:hover,
         &.#{$prefix}-active {
-          color: var(--ad-orange);
+          color: var(--ht-orange);
         }
       }
 

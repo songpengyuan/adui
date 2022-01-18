@@ -32,15 +32,15 @@ $prefix: "hunt-form";
     }
 
     &_success {
-      color: var(--ad-green);
+      color: var(--ht-green);
     }
 
     &_warning {
-      color: var(--ad-orange);
+      color: var(--ht-orange);
     }
 
     &_danger {
-      color: var(--ad-red);
+      color: var(--ht-red);
     }
   }
 }

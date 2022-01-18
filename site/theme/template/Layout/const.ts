@@ -24,7 +24,7 @@ const colorList = [
     list: [
       {
         name: "主要按钮背景",
-        key: "color_button",
+        key: "color_button_bg",
         defaultVal: '#304FFE'
       },
       {
@@ -34,12 +34,12 @@ const colorList = [
       },
       {
         name: "次按钮背景",
-        key: "color_small_button_bg",
+        key: "color_second_button_bg",
         defaultVal: '#FFFFFF'
       },
       {
         name: "次要标签/边框",
-        key: "color_small_button_text_border",
+        key: "color_second_button_border",
         defaultVal: '#304FFE'
       },
     ],
@@ -49,54 +49,54 @@ const colorList = [
     list: [
       {
         name: "表单文本",
-        key: "color_text_field_text",
+        key: "color_field_text",
         defaultVal: '#333333'
       },
       {
         name: "表单边框",
-        key: "color_text_field_border",
+        key: "color_field_border",
         defaultVal: '#ECECEC'
       },
       {
         name: "表单背景",
-        key: "color_text_field",
+        key: "color_field_bg",
         defaultVal: '#fff'
       },
     ],
   },
-  {
-    // 图片上的叠
-    title: "图片上的叠加",
-    list: [
-      {
-        name: "文本",
-        key: "color_image_overlay_text",
-        defaultVal: ''
-      },
-      {
-        name: "背景",
-        key: "color_image_overlay",
-        defaultVal: ''
-      },
-    ]
-  },
+  // {
+  //   // 图片上的叠
+  //   title: "图片上的叠加",
+  //   list: [
+  //     {
+  //       name: "文本",
+  //       key: "color_image_overlay_text",
+  //       defaultVal: ''
+  //     },
+  //     {
+  //       name: "背景",
+  //       key: "color_image_overlay",
+  //       defaultVal: ''
+  //     },
+  //   ]
+  // },
   {
     title: "页面",
     list: [
       {
         name: "边框和线条",
         key: "color_borders",
-        defaultVal: ''
+        defaultVal: '#fff'
       },
       {
         name: "背景",
         key: "color_body_bg",
-        defaultVal: ''
+        defaultVal: '#fff'
       },
       {
         name: "卡片背景",
         key: "color_card",
-        defaultVal: ''
+        defaultVal: '#fff'
       },
     ]
   }

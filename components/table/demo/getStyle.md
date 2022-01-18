@@ -38,10 +38,10 @@ return (
       getCellStyle={(row, col, rowIndex, colIndex) => {
         if (rowIndex === 0) {
           if (colIndex === 2) {
-            return { color: "var(--ad-green)", backgroundColor: "#f1f9f1" }
+            return { color: "var(--ht-green)", backgroundColor: "#f1f9f1" }
           }
           if (colIndex === 3) {
-            return { color: "var(--ad-red)", backgroundColor: "#fff3f3" }
+            return { color: "var(--ht-red)", backgroundColor: "#fff3f3" }
           }
         }
       }}

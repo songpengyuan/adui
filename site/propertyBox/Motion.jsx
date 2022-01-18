@@ -45,7 +45,7 @@ const ZoomExample = () => {
           display: "flex",
           alignItems: "center",
           fontSize: "13px",
-          color: "var(--ad-blue)",
+          color: "var(--ht-blue)",
           fontWeight: 500,
           cursor: "pointer",
         }}
@@ -53,7 +53,7 @@ const ZoomExample = () => {
         {expanded ? "收起" : "展开全部信息"}
         <Icon
           icon={`arrow-${expanded ? "up" : "down"}`}
-          color="var(--ad-blue)"
+          color="var(--ht-blue)"
         />
       </div>
     </Form>

@@ -1,10 +1,10 @@
 /* stylelint-disable */
 :root {
   --primary-color: rgb(38, 84, 255);
-  --ad-green: rgb(7, 193, 96);
-  --ad-orange: rgb(237, 162, 12);
-  --ad-blue: rgb(43, 123, 214);
-  --ad-red: rgb(217, 81, 76);
+  --ht-green: rgb(7, 193, 96);
+  --ht-orange: rgb(237, 162, 12);
+  --ht-blue: rgb(43, 123, 214);
+  --ht-red: rgb(217, 81, 76);
   --channels: rgb(250, 157, 59);
 
   --transparent-gray-0: rgba(0, 0, 0, 0);
@@ -34,8 +34,8 @@
   --gray-1000: #000000;
   --font-size-large: 16px;
   --font-size-medium: 14px;
-  --font-size-small: 13px;
-  --font-size-mini: 12px;
+  --font-size-small: 12px;
+  --font-size-mini: 10px;
 
   --box-shadow-elevation-0: 0 0 0 1px rgba(223, 223, 223, 0.45);
   --box-shadow-elevation-1: 0 0 0 1px rgba(223, 223, 223, 0.5),

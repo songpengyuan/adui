@@ -42,19 +42,19 @@ $colors: (
   primary-bg-gradient-hover: linear-gradient(-180deg, #faa64e, #faa64e),
   primary-bg-gradient-active: linear-gradient(-180deg, #e18d35, #e18d35),
   success-text: #fff,
-  success-bg: var(--ad-green),
+  success-bg: var(--ht-green),
   success-bg-gradient-hover:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%),
   success-bg-gradient-active:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
   warning-text: #fff,
-  warning-bg: var(--ad-orange),
+  warning-bg: var(--ht-orange),
   warning-bg-gradient-hover:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%),
   warning-bg-gradient-active:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
   danger-text: #fff,
-  danger-bg: var(--ad-red),
+  danger-bg: var(--ht-red),
   danger-bg-gradient-hover:
     linear-gradient(-180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%),
   danger-bg-gradient-active:
@@ -64,9 +64,9 @@ $colors: (
   normal-light-text-active: var(--gray-900),
   normal-light-color: var(--gray-800),
   primary-light-color: var(--channels),
-  success-light-color: var(--ad-green),
-  warning-light-color: var(--ad-orange),
-  danger-light-color: var(--ad-red),
+  success-light-color: var(--ht-green),
+  warning-light-color: var(--ht-orange),
+  danger-light-color: var(--ht-red),
 );
 
 /*  

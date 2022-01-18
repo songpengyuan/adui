@@ -47,7 +47,7 @@ return (
       className="flex items-center text-13 text-blue font-medium cursor-pointer"
     >
       {expanded ? "收起" : "展开全部信息"}
-      <Icon icon={`arrow-${expanded ? "up" : "down"}`} color="var(--ad-blue)" />
+      <Icon icon={`arrow-${expanded ? "up" : "down"}`} color="var(--ht-blue)" />
     </div>
   </Form>
 )

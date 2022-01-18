@@ -11,7 +11,7 @@ $prefix: "hunt-button";
     padding-bottom: 0;
     white-space: nowrap;
     border: none;
-    border-radius: 4px;
+    // border-radius: 4px;
     text-decoration: none;
     outline: none;
     user-select: none;
@@ -37,19 +37,19 @@ $prefix: "hunt-button";
 
       &.#{$prefix}-success {
         .#{$prefix}-spinner {
-          background-color: var(--ad-green);
+          background-color: var(--ht-green);
         }
       }
 
       &.#{$prefix}-warning {
         .#{$prefix}-spinner {
-          background-color: var(--ad-orange);
+          background-color: var(--ht-orange);
         }
       }
 
       &.#{$prefix}-danger {
         .#{$prefix}-spinner {
-          background-color: var(--ad-red);
+          background-color: var(--ht-red);
         }
       }
     }
@@ -93,18 +93,18 @@ $prefix: "hunt-button";
     }
   }
   &-small {
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 34px;
     font-size: var(--font-size-small);
-    line-height: 30px;
+    line-height: 34px;
 
     &.#{$prefix}-hasLeftIcon {
-      padding-left: 6px;
+      padding-left: 18px;
     }
 
     &.#{$prefix}-hasRightIcon {
-      padding-right: 6px;
+      padding-right: 18px;
     }
 
     .#{$prefix}-leftIcon,
@@ -113,18 +113,18 @@ $prefix: "hunt-button";
     }
   }
   &-medium {
-    padding-left: 13px;
-    padding-right: 13px;
-    height: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
     font-size: var(--font-size-medium);
-    line-height: 36px;
+    line-height: 40px;
 
     &.#{$prefix}-hasLeftIcon {
-      padding-left: 9px;
+      padding-left: 26px;
     }
 
     &.#{$prefix}-hasRightIcon {
-      padding-right: 9px;
+      padding-right: 26px;
     }
 
     .#{$prefix}-leftIcon,
@@ -133,18 +133,18 @@ $prefix: "hunt-button";
     }
   }
   &-large {
-    padding-left: 16px;
-    padding-right: 16px;
-    height: 42px;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 46px;
     font-size: var(--font-size-large);
-    line-height: 42px;
+    line-height: 46px;
 
     &.#{$prefix}-hasLeftIcon {
-      padding-left: 12px;
+      padding-left: 34px;
     }
 
     &.#{$prefix}-hasRightIcon {
-      padding-right: 12px;
+      padding-right: 34px;
     }
 
     .#{$prefix}-leftIcon,
@@ -234,7 +234,7 @@ $prefix: "hunt-button";
   &.#{$prefix}-success {
     .#{$prefix}-spinner {
       &::after {
-        background-color: var(--ad-green);
+        background-color: var(--ht-green);
       }
     }
   }
@@ -242,7 +242,7 @@ $prefix: "hunt-button";
   &.#{$prefix}-warning {
     .#{$prefix}-spinner {
       &::after {
-        background-color: var(--ad-orange);
+        background-color: var(--ht-orange);
       }
     }
   }
@@ -250,7 +250,7 @@ $prefix: "hunt-button";
   &.#{$prefix}-danger {
     .#{$prefix}-spinner {
       &::after {
-        background-color: var(--ad-red);
+        background-color: var(--ht-red);
       }
     }
   }
@@ -304,14 +304,14 @@ $prefix: "hunt-button";
       &.#{$prefix}-warning {
         &:hover,
         &.#{$prefix}-active {
-          color: var(--ad-orange);
+          color: var(--ht-orange);
         }
       }
 
       &.#{$prefix}-danger {
         &:hover,
         &.#{$prefix}-active {
-          color: var(--ad-red);
+          color: var(--ht-red);
         }
       }
 

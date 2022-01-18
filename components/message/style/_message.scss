@@ -115,19 +115,19 @@ $prefix: "hunt-message";
       0 0 0 1px var(--primary-color);
   }
   &-success {
-    background-color: var(--ad-green);
+    background-color: var(--ht-green);
     box-shadow: 0 10px 36px 0 rgba(0, 0, 0, 0.1),
       0 6px 15px 0 rgba(0, 0, 0, 0.07), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
-      0 0 0 1px var(--ad-green);
+      0 0 0 1px var(--ht-green);
   }
   &-warning {
-    background-color: var(--ad-orange);
+    background-color: var(--ht-orange);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 10px 36px 0 rgba(0, 0, 0, 0.1),
-      0 6px 15px 0 rgba(0, 0, 0, 0.07), 0 0 0 1px var(--ad-orange);
+      0 6px 15px 0 rgba(0, 0, 0, 0.07), 0 0 0 1px var(--ht-orange);
   }
   &-danger {
-    background-color: var(--ad-red);
+    background-color: var(--ht-red);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 10px 36px 0 rgba(0, 0, 0, 0.1),
-      0 6px 15px 0 rgba(0, 0, 0, 0.07), 0 0 0 1px var(--ad-red);
+      0 6px 15px 0 rgba(0, 0, 0, 0.07), 0 0 0 1px var(--ht-red);
   }
 }

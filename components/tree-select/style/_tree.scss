@@ -712,10 +712,10 @@ $prefix: "hunt-tree-select";
   &-success {
     .#{$prefix} {
       &-selector {
-        box-shadow: 0 0 0 1px var(--ad-green);
+        box-shadow: 0 0 0 1px var(--ht-green);
 
         &:hover {
-          box-shadow: 0 0 0 1px var(--ad-green);
+          box-shadow: 0 0 0 1px var(--ht-green);
         }
       }
     }
@@ -724,8 +724,8 @@ $prefix: "hunt-tree-select";
       &-focused {
         .#{$prefix} {
           &-selector {
-            box-shadow: 0 0 0 1px var(--ad-green),
-              0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ad-green);
+            box-shadow: 0 0 0 1px var(--ht-green),
+              0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ht-green);
           }
         }
       }
@@ -735,10 +735,10 @@ $prefix: "hunt-tree-select";
   &-warning {
     .#{$prefix} {
       &-selector {
-        box-shadow: 0 0 0 1px var(--ad-orange);
+        box-shadow: 0 0 0 1px var(--ht-orange);
 
         &:hover {
-          box-shadow: 0 0 0 1px var(--ad-orange);
+          box-shadow: 0 0 0 1px var(--ht-orange);
         }
       }
     }
@@ -747,8 +747,8 @@ $prefix: "hunt-tree-select";
       &-focused {
         .#{$prefix} {
           &-selector {
-            box-shadow: 0 0 0 1px var(--ad-orange),
-              0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ad-orange);
+            box-shadow: 0 0 0 1px var(--ht-orange),
+              0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ht-orange);
           }
         }
       }
@@ -758,10 +758,10 @@ $prefix: "hunt-tree-select";
   &-danger {
     .#{$prefix} {
       &-selector {
-        box-shadow: 0 0 0 1px var(--ad-red);
+        box-shadow: 0 0 0 1px var(--ht-red);
 
         &:hover {
-          box-shadow: 0 0 0 1px var(--ad-red);
+          box-shadow: 0 0 0 1px var(--ht-red);
         }
       }
     }
@@ -770,8 +770,8 @@ $prefix: "hunt-tree-select";
       &-focused {
         .#{$prefix} {
           &-selector {
-            box-shadow: 0 0 0 1px var(--ad-red),
-              0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ad-red);
+            box-shadow: 0 0 0 1px var(--ht-red),
+              0 0 0 4px rgba(255, 255, 255, 0.7), 0 0 0 4px var(--ht-red);
           }
         }
       }
